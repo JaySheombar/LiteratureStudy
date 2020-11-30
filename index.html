@@ -10,10 +10,7 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 		<script type="text/javascript">
-			function processData(data) {				
-				var d = $.csv.toObjects(data)
-				console.log(d);
-			}
+			var data = [];
 
 			$(document).ready(function() {
 				$.ajax({
@@ -23,7 +20,48 @@
 					success: function(data) { processData(data); }
 				});
 			});
-			
+
+			function processData(data) {				
+				var lines = data.split('\n');
+
+				for(var i = 1; i < lines.length; i++) {
+					var line = lines[i].split(',');
+					var paper = {
+						id: line[0],
+						include: line[1],
+						name: line[2],
+						author: line[3],
+						pub_year: line[4],
+						inclusion_crit: [
+							line[5], line[6], line[7], line[8], line[9],
+						],
+						title_read: line[10],
+						abstract_read: line[11],
+						scanned_read: line[12],
+						full_text_read: line[13],
+						notes: line[14],
+						url: line[15],
+					}
+
+					this.data.push(paper);
+				}
+				print_data();
+			}
+
+			function print_data() {
+				this.data.forEach(paper => {
+					// console.log(paper);
+					$('.papers-table').append("<tr>");
+						$('.papers-table').append("<td><a href=\""+ paper.url + "\">" + paper.name + "</a></td>");
+						if(paper.include === "no") {
+							$('.papers-table').append("<td><input type=\"checkbox\" disabled /></td>");	
+						} else {
+							$('.papers-table').append("<td><input type=\"checkbox\" checked disabled /></td>");	
+						}
+						$('.papers-table').append("<td>" + paper.pub_year + "</td>");
+					$('.papers-table').append("</tr>");
+				});
+			}
 		</script>
 	</head>
 
@@ -43,31 +81,7 @@
 			<div class="row">
 				<div class="col">
 					<h3>Papers</h3>
-					<table>
-						<tbody>
-							<tr>
-								<td><a href="https://drive.google.com/file/d/151HR_mSy36ZEUIbpWwwHLgw6WceJob_C/view?usp=sharing" target="_blank">5G Internet of Things: A survey</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://drive.google.com/file/d/1NixTNnPekj9ErgtTdz-DFSigC-fZpcmY/view?usp=sharing" target="_blank">A survey of 5G technologies: regulatory, standardization and industrial perspectives</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://drive.google.com/file/d/1BG5wKou9JdX-cqe-iodCJA7eDASU1bNV/view?usp=sharing" target="_blank">Sensor network software update management: a survey</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://drive.google.com/file/d/1RgYgZ3J0zM66wrmK2GFOVG1H1xxZZPyw/view?usp=sharing" target="_blank">The Internet of Things: A survey</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://drive.google.com/file/d/1p3qYEVLhlBJ9IwIwqXqmBIP0SR_t1YN9/view?usp=sharing" target="_blank">Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://drive.google.com/file/d/1HZP_sY9fIa4yzApKLNqoyY8B15GdzX3r/view?usp=sharing" target="_blank">Towards Internet of Things: Survey and Future Vision</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://drive.google.com/file/d/1Hk2WZFScnwopt4Vkb3vCVaWgPO9JIbQ9/view?usp=sharing" target="_blank">A comparative study of LPWAN technologies for large-scale IoT deployment</a></td>
-							</tr>
-						</tbody>
-					</table>
+					<table class="papers-table"></table>
 					<h4>Introduction papers</h4>
 					<table>
 						<tbody>

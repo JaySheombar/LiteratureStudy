@@ -1,14 +1,14 @@
-ID,yes/no,Name,Author,Publication year,"Inclusion criteria, mark with X if met",,,,,Mark X if title is read,Mark X if abstract is read,Mark X if full text is scanned,Mark X if full text is read,Notes
-1,no,5G Internet of Things: A survey,Li S.  Xu L.  Zhao S.,2018,-,-,-,-,-,X,X,X,,Survey on trends in 5G IoT
-2,no,"A survey of 5G technologies: regulatory, standardization and industrial perspectives",Morgado A.  Huq K.  Mumtaz S.  et.al.,2018,-,-,-,-,-,X,X,X,,Don't think this paper has much value for me
-3,no,Sensor network software update management: a survey,Han C.  Kumar R.  Shea R.  et.al.,2005,-,-,-,-,-,X,X,X,,"It's old, maybe good starting point"
-4,no,The Internet of Things: A survey,Atzori L.  Iera A.  Morabito G.,2010,-,-,-,-,-,X,X,,,"IoT survey, rather old, maybe use as starting point?"
-5,no,"Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications",Al-Fuqaha A.  Guizani M.  Mohammadi M.  et.al.,2015,-,-,-,-,-,X,X,,,"Survey 2015, seems like a good paper. Maybe full read?"
-6,no,Towards Internet of Things: Survey and Future Vision,Said O. Masud M.,2013,-,-,-,-,-,X,,,,
-7,no,A comparative study of LPWAN technologies for large-scale IoT deployment,Mekki K.  Bajic E.  Chaxel F.  et.al.,2019,-,-,-,-,-,X,,,,
-8,no,A SOLUTION FRAMEWORK FOR MANAGING INTERNET OF THINGS (IOT),Mohapatra S.  Bhuyan J.  Asundi P.  et.al.,2016,-,-,-,-,-,X,X,X,X,
-9,no,"Internet of Things: Architectures, Protocols, and Applications",Sethi P. Sarangi S.,2017,-,-,-,-,-,X,X,X,X,
-10,no,IoT Architectural Framework: Connection and Integration Framework for IoT Systems,Uviase O.  Kotonya G.,2018,-,-,-,-,-,X,X,X,X,
-11,no,Robust and Efficient Software Management in Sensor Networks,Wolfgang Schroder-Preikschat. Rudiger Kapitza. Jurgen Kleinoder. Meik Felser. Katja Karmeier. Thomas Halva Labella. Falko Dressler,2007,-,-,-,-,-,X,-,-,,
-12,no,Remote Incremental Linking for Energy-Efficient Reprogramming of Sensor Networks,J. Koshy. R. Pandey,2005,-,-,,-,-,X,-,-,,
-13,no,Rare Event Detection and Propagation in Wireless Sensor Networks,David C. Harrison. Winston K. G. Seah. Ramesh Rayudu,2016,,,,,,X,,,,
+ID,yes/no,Name,Author,Publication year,Inclusion criteria - mark with X if met,,,,,Mark X if title is read,Mark X if abstract is read,Mark X if full text is scanned,Mark X if full text is read,Notes,url
+1,no,5G Internet of Things: A survey,Li S.  Xu L.  Zhao S.,2018,-,-,-,-,-,X,X,X,-,Survey on trends in 5G IoT,https://drive.google.com/file/d/151HR_mSy36ZEUIbpWwwHLgw6WceJob_C/view
+2,no,A survey of 5G technologies: regulatory standardization and industrial perspectives,Morgado A.  Huq K.  Mumtaz S.  et.al.,2018,-,-,-,-,-,X,X,X,-,Don't think this paper has much value for me,https://drive.google.com/file/d/1NixTNnPekj9ErgtTdz-DFSigC-fZpcmY/view?usp=sharing
+3,no,Sensor network software update management: a survey,Han C.  Kumar R.  Shea R.  et.al.,2005,-,-,-,-,-,X,X,X,-,It's old - maybe good starting point,https://drive.google.com/file/d/1BG5wKou9JdX-cqe-iodCJA7eDASU1bNV/view?usp=sharing
+4,no,The Internet of Things: A survey,Atzori L.  Iera A.  Morabito G.,2010,-,-,-,-,-,X,X,-,-,IoT survey - rather old - maybe use as starting point?,https://drive.google.com/file/d/1RgYgZ3J0zM66wrmK2GFOVG1H1xxZZPyw/view?usp=sharing
+5,no,Internet of Things: A Survey on Enabling Technologies Protocols and Applications,Al-Fuqaha A.  Guizani M.  Mohammadi M.  et.al.,2015,-,-,-,-,-,X,X,-,-,Survey 2015 - seems like a good paper. Maybe full read?,https://drive.google.com/file/d/1p3qYEVLhlBJ9IwIwqXqmBIP0SR_t1YN9/view?usp=sharing
+6,no,Towards Internet of Things: Survey and Future Vision,Said O. Masud M.,2013,-,-,-,-,-,X,-,-,-,,https://drive.google.com/file/d/1HZP_sY9fIa4yzApKLNqoyY8B15GdzX3r/view?usp=sharing
+7,no,A comparative study of LPWAN technologies for large-scale IoT deployment,Mekki K.  Bajic E.  Chaxel F.  et.al.,2019,-,-,-,-,-,X,-,-,-,,https://drive.google.com/file/d/1Hk2WZFScnwopt4Vkb3vCVaWgPO9JIbQ9/view?usp=sharing
+8,no,A SOLUTION FRAMEWORK FOR MANAGING INTERNET OF THINGS (IOT),Mohapatra S.  Bhuyan J.  Asundi P.  et.al.,2016,-,-,-,-,-,X,X,X,X,,https://drive.google.com/file/d/1cQl7I3v2f9jmsdCar5fu3U94uHAOAcJq/view?usp=sharing
+9,no,Internet of Things: Architectures Protocols and Applications,Sethi P. Sarangi S.,2017,-,-,-,-,-,X,X,X,X,,https://drive.google.com/file/d/1oW1OC6edny1QP-Xwkqq529qub1xgv85I/view?usp=sharing
+10,no,IoT Architectural Framework: Connection and Integration Framework for IoT Systems,Uviase O.  Kotonya G.,2018,-,-,-,-,-,X,X,X,X,,https://drive.google.com/file/d/1eBEgm-0OPm76Mdn9YyHMaIzuC_gZuPov/view?usp=sharing
+11,no,Robust and Efficient Software Management in Sensor Networks,Wolfgang Schroder-Preikschat. Rudiger Kapitza. Jurgen Kleinoder. Meik Felser. Katja Karmeier. Thomas Halva Labella. Falko Dressler,2007,-,-,-,-,-,X,-,-,-,,https://drive.google.com/file/d/130Yl2LOoRj4GeQcc8pRrC2SNdlmfJAr_/view?usp=sharing
+12,no,Remote Incremental Linking for Energy-Efficient Reprogramming of Sensor Networks,J. Koshy. R. Pandey,2005,-,-,,-,-,X,-,-,-,,https://drive.google.com/file/d/1f2101U0uCQyy8fiFiywfXn1APfoVp2UJ/view?usp=sharing
+13,no,Rare Event Detection and Propagation in Wireless Sensor Networks,David C. Harrison. Winston K. G. Seah. Ramesh Rayudu,2016,-,-,-,-,-,X,-,-,-,,https://drive.google.com/file/d/1CDCs68OO7WQQ-V5v6KAl5fhMsRyllARW/view?usp=sharing
