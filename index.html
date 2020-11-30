@@ -53,12 +53,12 @@
 					// console.log(paper);
 					$('.papers-table').append("<tr>");
 						$('.papers-table').append("<td><a href=\""+ paper.url + "\">" + paper.name + "</a></td>");
-						if(paper.include === "no") {
-							$('.papers-table').append("<td><input type=\"checkbox\" disabled /></td>");	
-						} else {
-							$('.papers-table').append("<td><input type=\"checkbox\" checked disabled /></td>");	
-						}
-						$('.papers-table').append("<td>" + paper.pub_year + "</td>");
+						// if(paper.include === "no") {
+						// 	$('.papers-table').append("<td><input type=\"checkbox\" disabled /></td>");	
+						// } else {
+						// 	$('.papers-table').append("<td><input type=\"checkbox\" checked disabled /></td>");	
+						// }
+						$('.papers-table').append("<td>(" + paper.pub_year + ")</td>");
 					$('.papers-table').append("</tr>");
 				});
 			}
@@ -106,6 +106,24 @@
 						</div>
 						<div class="card-body">
 							Meeting planned...
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card">
+						<div class="card-header">
+							<b>Feedback - 26/11/2020</b>
+						</div>
+						<div class="card-body">
+							Looking at paper: 'Sensor network software update management: a survey'. Seems a good start, however the paper from 2005 which is 15 years old. <br />
+							Ask yourself:
+							<ul>
+								<li>Which papers have referred to this paper, and in which way?</li>
+								<li>Which technological advancements have impacted the chosen research topics. Think network capabilities and increased processing speed. It could also be the case that the paper is not affected.</li>
+								<li>Are there other important considerations?</li>
+							</ul>
 						</div>
 					</div>
 				</div>
