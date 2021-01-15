@@ -48,20 +48,20 @@
 				print_data();
 			}
 
-			function print_data() {
-				this.data.forEach(paper => {
-					// console.log(paper);
-					$('.papers-table').append("<tr>");
-						$('.papers-table').append("<td><a href=\""+ paper.url + "\">" + paper.name + "</a></td>");
-						// if(paper.include === "no") {
-						// 	$('.papers-table').append("<td><input type=\"checkbox\" disabled /></td>");	
-						// } else {
-						// 	$('.papers-table').append("<td><input type=\"checkbox\" checked disabled /></td>");	
-						// }
-						$('.papers-table').append("<td>(" + paper.pub_year + ")</td>");
-					$('.papers-table').append("</tr>");
-				});
-			}
+			// function print_data() {
+			// 	this.data.forEach(paper => {
+			// 		// console.log(paper);
+			// 		$('.papers-table').append("<tr>");
+			// 			$('.papers-table').append("<td><a href=\""+ paper.url + "\">" + paper.name + "</a></td>");
+			// 			// if(paper.include === "no") {
+			// 			// 	$('.papers-table').append("<td><input type=\"checkbox\" disabled /></td>");	
+			// 			// } else {
+			// 			// 	$('.papers-table').append("<td><input type=\"checkbox\" checked disabled /></td>");	
+			// 			// }
+			// 			$('.papers-table').append("<td>(" + paper.pub_year + ")</td>");
+			// 		$('.papers-table').append("</tr>");
+			// 	});
+			// }
 		</script>
 	</head>
 
@@ -75,13 +75,13 @@
 			</div>
 			<div class="row">
 				<div class="col">
-					<a href="https://docs.google.com/spreadsheets/d/1DBRRfzzLt44k60k55PTKZ0HAss74q6iff7XKIoVieDg/edit?usp=sharing" target="_blank">Link to spreadsheet...</a>
+					<a href="https://docs.google.com/spreadsheets/d/1DBRRfzzLt44k60k55PTKZ0HAss74q6iff7XKIoVieDg/edit?usp=sharing" target="_blank">Link to article spreadsheet...</a>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<h3>Papers</h3>
-					<table class="papers-table"></table>
+					<!-- <h3>Papers</h3> -->
+					<!-- <table class="papers-table"></table> -->
 					<h4>Introduction papers</h4>
 					<table>
 						<tbody>
@@ -96,6 +96,22 @@
 							</tr>
 						</tbody>
 					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card">
+						<div class="card-header">
+							<b>Meeting 3 Update - 15/01/2021 - 13:00</b>
+						</div>
+						<div class="card-body">
+							<ul>
+								<li><a href="https://lucid.app/lucidchart/1fa90136-cfe3-41a9-a36e-2fef4f68c73b/view#">Keywords in tree</a></li>
+								<li>New papers in the spreadsheet</li>
+								<li><a href="https://docs.google.com/document/d/1MbzsbsHF5E54iGrsy-_x5sNuoBVm300BvXsvlAiJeUE/edit?usp=sharing">Abstract in one sentence</a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row">
